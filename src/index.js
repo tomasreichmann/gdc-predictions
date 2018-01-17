@@ -87,11 +87,15 @@ const stages = [
     name: 'Co jsem se naučil',
     render: () => (
       <div key="stage-11" >
-        <h3>Pluggable visualizace bez pluggable vizualizací</h3>
-        <h3><a href="http://recharts.org/#/en-US/examples" target="_blank" >Recharts</a></h3>
+        <h3>Custom vizualizace, aneb podstrkávání mock komponent kvůli testům se hodí IRL!</h3>
+        <h3><a href="http://recharts.org/#/en-US/examples" target="_blank" >Recharts</a> - skvělé provedení, ale nedokonalá dokumentace (furt lepší než HC).</h3>
         <h3>Lineární a multilineární regrese - <a href="https://www.npmjs.com/package/smr" target="_blank" >SMR</a></h3>
         <h3>Regresní modely - <a href="https://github.com/Tom-Alexander/regression-js" target="_blank" >regression</a></h3>
         <h3>Lineární regrese - <a href="https://www.npmjs.com/package/smr" target="_blank" >SMR</a></h3>
+        <h3>Log 0 a log pro X &gt; 0 neexistuje => některé regresní modely nedokáží pracovat s nulovými resp. zápornými hodnotami (proto index začíná od 1 a y &gt; 0)</h3>
+        <h3>React Intl + GoodStrap je pain. Back to HTML + CSS</h3>
+        <h3>Minor bug v BaseChartu - nereaguje na update BaseChartComponent</h3>
+        <h3>Handling 'loading' a 'error' stavů v našich komponentech je pain</h3>
       </div>
     )
   },

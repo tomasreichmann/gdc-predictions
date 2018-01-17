@@ -175,7 +175,7 @@ export class OptimisedRegressionVisualization extends Component {
     ) );
 
     return (<div>
-      { data.bestR2 !== null ? <h3>Best model: {data.bestModel} with R<sub>2</sub> {data.bestR2}</h3> : null }
+      { data.bestR2 !== null ? <h3>Best model: {data.bestModel} with R<sup>2</sup> {data.bestR2}</h3> : null }
       <ResponsiveContainer width="100%" height={height}>
         <BarChart data={data.points}>
           <CartesianGrid strokeDasharray="3 3" />
